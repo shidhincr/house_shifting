@@ -1,0 +1,28 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.img-thumb {
+  max-width: 100%; }
+
+.img-placeholder {
+  position: relative;
+  margin: 10px 0; }
+
+.img-title {
+  position: absolute;
+  color: yellow;
+  top: 0px;
+  font-size: 12px;
+  right: 0;
+  background-color: rgba(13, 12, 12, 0.51);
+  padding: 5px; }
+
+.m-item {
+  height: 20px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute; }

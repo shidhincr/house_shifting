@@ -1,0 +1,19 @@
+doctype html
+html(ng-app="house-shifting")
+  head
+    title= title
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/bower_components/bootstrap-vertical-tabs/bootstrap.vertical-tabs.min.css')
+    link(rel='stylesheet', href='/bower_components/')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(ng-controller="MainCtrl as m")
+    nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header: .navbar-brand #{title}
+    block content
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/angular/angular.min.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='/bower_components/lazysizes/lazysizes.min.js')
+    script(src='/js/client.js')
