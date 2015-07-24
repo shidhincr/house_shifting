@@ -11,6 +11,25 @@ app.controller('MainCtrl', function () {
     ];
 });
 
+app.factory('fetcher', function ($http, $q) {
+    return function (url) {
+        return $q(function (resolve, reject) {
+            $http.get(url).success(resolve).error(reject);
+        });
+    };
+});
+
+app.factory('itemsData', function (fetcher) {
+    return {
+        set: function(options) {
+            return fetcher('/api/'+options.section+'/'+options.image+'?item='+options.item+'&x='+options.x+'&y='+option.y);
+        },
+        get: function() {
+            return fetcher('/api');
+        }
+    };
+});
+
 
 app.directive('itemsOverlay', function () {
     return {
