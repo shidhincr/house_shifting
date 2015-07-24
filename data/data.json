@@ -1,105 +1,102 @@
 {
-  "title": "House shifting app",
-  "sections": {
-    "bathroom": {
-      "images": [
-        "bathroom_below_handwash.jpg",
-        "bathroom_below_handwash_1.jpg",
-        "bathroom_blu_headwash.jpg",
-        "bathroom_buckets_cup.jpg",
-        "bathroom_creams_1.jpg",
-        "bathroom_creams_items.jpg",
-        "bathroom_curtain_towel_rod.jpg",
-        "bathroom_stands.jpg",
-        "bathroom_towel.jpg"
-      ]
-    },
-    "cupboards": {
-      "images": [
-        "Cupboards.jpg",
-        "Cupboards_13.jpg",
-        "Cupboards_14.jpg",
-        "Cupboards_15.jpg",
-        "Cupboards_16.jpg",
-        "Cupboards_17.jpg",
-        "Cupboards_24.jpg",
-        "Cupboards_26.jpg",
-        "Cupboards_27.jpg",
-        "Cupboards_29.jpg",
-        "Cupboards_32.jpg",
-        "Cupboards_34.jpg",
-        "Cupboards_38.jpg",
-        "Cupboards_44.jpg",
-        "Cupboards_45.jpg",
-        "Cupboards_47.jpg",
-        "Cupboards_48.jpg",
-        "Cupboards_56.jpg",
-        "Cupboards_64.jpg",
-        "Cupboards_65.jpg",
-        "Cupboards_69.jpg",
-        "Cupboards_73.jpg",
-        "Cupboards_79.jpg",
-        "Cupboards_80.jpg"
-      ]
-    },
-    "entrance": {
-      "images": [
-        "entrance_1.jpg",
-        "entrance_door.jpg",
-        "entrance_shoes.jpg"
-      ]
-    },
-    "hall": {
-      "images": [
-        "hall_1.jpg",
-        "hall_1_1.jpg",
-        "hall_2.jpg",
-        "hall_2_1.jpg",
-        "hall_3.jpg",
-        "hall_4.jpg",
-        "hall_bed_switchboard.jpg",
-        "hall_dining_table.jpg",
-        "hall_toys_cycle_router.jpg",
-        "hall_tv_stand_items.jpg",
-        "hall_under_bed.jpg",
-        "hall_wall_items.jpg"
-      ]
-    },
-    "kitchen": {
-      "images": [
-        "kitchen_above_fridge.jpg",
-        "kitchen_brooms.jpg",
-        "kitchen_cb_1.jpg",
-        "kitchen_cb_2.jpg",
-        "kitchen_cb_3.jpg",
-        "kitchen_cb_gas_meter.jpg",
-        "kitchen_cb_inside_gas_meter.jpg",
-        "kitchen_cb_near_fridge.jpg",
-        "kitchen_cb_near_fridge_1.jpg",
-        "kitchen_cb_top_1.jpg",
-        "kitchen_cooking_range.jpg",
-        "kitchen_cupboard_plates_1.jpg",
-        "kitchen_cupboard_plates_2.jpg",
-        "kitchen_cupboard_plates_3.jpg",
-        "kitchen_cupboard_plates_4.jpg",
-        "kitchen_cupboard_plates_5.jpg",
-        "kitchen_drawer_1.jpg",
-        "kitchen_drawer_2.jpg",
-        "kitchen_drawer_3.jpg",
-        "kitchen_drawer_4.jpg",
-        "kitchen_fridge.jpg",
-        "kitchen_fridge_1.jpg",
-        "kitchen_microwave.jpg",
-        "kitchen_plates_1.jpg",
-        "kitchen_plates_2.jpg",
-        "kitchen_plates_3.jpg",
-        "kitchen_small_boxes.jpg",
-        "kitchen_switch_boards.jpg",
-        "kitchen_washing_machine.jpg",
-        "kitchen_waste_baskets_stool.jpg",
-        "kitchen_waste_bin.jpg",
-        "kitchen_water_can.jpg"
-      ]
-    }
+  "bathroom": {
+    "images": [
+      "bathroom_below_handwash.jpg",
+      "bathroom_below_handwash_1.jpg",
+      "bathroom_blu_headwash.jpg",
+      "bathroom_buckets_cup.jpg",
+      "bathroom_creams_1.jpg",
+      "bathroom_creams_items.jpg",
+      "bathroom_curtain_towel_rod.jpg",
+      "bathroom_stands.jpg",
+      "bathroom_towel.jpg"
+    ]
+  },
+  "cupboards": {
+    "images": [
+      "Cupboards.jpg",
+      "Cupboards_13.jpg",
+      "Cupboards_14.jpg",
+      "Cupboards_15.jpg",
+      "Cupboards_16.jpg",
+      "Cupboards_17.jpg",
+      "Cupboards_24.jpg",
+      "Cupboards_26.jpg",
+      "Cupboards_27.jpg",
+      "Cupboards_29.jpg",
+      "Cupboards_32.jpg",
+      "Cupboards_34.jpg",
+      "Cupboards_38.jpg",
+      "Cupboards_44.jpg",
+      "Cupboards_45.jpg",
+      "Cupboards_47.jpg",
+      "Cupboards_48.jpg",
+      "Cupboards_56.jpg",
+      "Cupboards_64.jpg",
+      "Cupboards_65.jpg",
+      "Cupboards_69.jpg",
+      "Cupboards_73.jpg",
+      "Cupboards_79.jpg",
+      "Cupboards_80.jpg"
+    ]
+  },
+  "entrance": {
+    "images": [
+      "entrance_1.jpg",
+      "entrance_door.jpg",
+      "entrance_shoes.jpg"
+    ]
+  },
+  "hall": {
+    "images": [
+      "hall_1.jpg",
+      "hall_1_1.jpg",
+      "hall_2.jpg",
+      "hall_2_1.jpg",
+      "hall_3.jpg",
+      "hall_4.jpg",
+      "hall_bed_switchboard.jpg",
+      "hall_dining_table.jpg",
+      "hall_toys_cycle_router.jpg",
+      "hall_tv_stand_items.jpg",
+      "hall_under_bed.jpg",
+      "hall_wall_items.jpg"
+    ]
+  },
+  "kitchen": {
+    "images": [
+      "kitchen_above_fridge.jpg",
+      "kitchen_brooms.jpg",
+      "kitchen_cb_1.jpg",
+      "kitchen_cb_2.jpg",
+      "kitchen_cb_3.jpg",
+      "kitchen_cb_gas_meter.jpg",
+      "kitchen_cb_inside_gas_meter.jpg",
+      "kitchen_cb_near_fridge.jpg",
+      "kitchen_cb_near_fridge_1.jpg",
+      "kitchen_cb_top_1.jpg",
+      "kitchen_cooking_range.jpg",
+      "kitchen_cupboard_plates_1.jpg",
+      "kitchen_cupboard_plates_2.jpg",
+      "kitchen_cupboard_plates_3.jpg",
+      "kitchen_cupboard_plates_4.jpg",
+      "kitchen_cupboard_plates_5.jpg",
+      "kitchen_drawer_1.jpg",
+      "kitchen_drawer_2.jpg",
+      "kitchen_drawer_3.jpg",
+      "kitchen_drawer_4.jpg",
+      "kitchen_fridge.jpg",
+      "kitchen_fridge_1.jpg",
+      "kitchen_microwave.jpg",
+      "kitchen_plates_1.jpg",
+      "kitchen_plates_2.jpg",
+      "kitchen_plates_3.jpg",
+      "kitchen_small_boxes.jpg",
+      "kitchen_switch_boards.jpg",
+      "kitchen_washing_machine.jpg",
+      "kitchen_waste_baskets_stool.jpg",
+      "kitchen_waste_bin.jpg",
+      "kitchen_water_can.jpg"
+    ]
   }
 }
