@@ -31,6 +31,21 @@ app.factory('itemsData', function (fetcher) {
 });
 
 
+app.directive('item-pin', function () {
+    return {
+        scope: {
+            x: '@',
+            y: '@',
+            section: '@',
+            image: '@'
+        },
+        templateUrl: 'templates/item-pin.html',
+        link: function (scope, elem) {
+
+        }
+    };
+});
+
 app.directive('itemsOverlay', function () {
     return {
         scope: true,
@@ -42,7 +57,6 @@ app.directive('itemsOverlay', function () {
                     left: e.offsetX,
                     top: e.offsetY
                 });
-                console.log(item);
             });
         }
     }
