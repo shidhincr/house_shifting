@@ -21,27 +21,11 @@ app.factory('fetcher', function ($http, $q) {
 
 app.factory('itemsData', function (fetcher) {
     return {
-        set: function(options) {
-            return fetcher('/api/'+options.section+'/'+options.image+'?item='+options.item+'&x='+options.x+'&y='+option.y);
+        set: function (options) {
+            return fetcher('/api/' + options.section + '/' + options.image + '?item=' + options.item + '&x=' + options.x + '&y=' + option.y);
         },
-        get: function() {
+        get: function () {
             return fetcher('/api');
-        }
-    };
-});
-
-
-app.directive('item-pin', function () {
-    return {
-        scope: {
-            x: '@',
-            y: '@',
-            section: '@',
-            image: '@'
-        },
-        templateUrl: 'templates/item-pin.html',
-        link: function (scope, elem) {
-
         }
     };
 });
@@ -49,15 +33,40 @@ app.directive('item-pin', function () {
 app.directive('itemsOverlay', function () {
     return {
         scope: true,
+        transclude: true,
+        templateUrl: 'templates/item-overlay.html',
         link: function (scope, elem, attrs) {
-            elem.on('click', function (e) {
-                var item = $('<div class="m-item"></div>');
-                elem.append(item);
-                item.css({
-                    left: e.offsetX,
-                    top: e.offsetY
-                });
+            var shouldRedraw = true;
+            scope.matrix = [];
+            var draw = function () {
+
+                if(!shouldRedraw){
+                    return;
+                }
+                var h = elem.height(),
+                    w = elem.width();
+                scope.matrix = [];
+                for(var i= 0; i<100; i++) {
+                    scope.matrix.push({
+                        h: (h/10)-1/10,
+                        w: (w/10)-1/10
+                    });
+                }
+
+                scope.$apply();
+                shouldRedraw = false;
+            };
+
+            elem.on('mouseover', draw);
+
+            $(window).on('resize', function () {
+                shouldRedraw = true;
+            });
+
+            scope.$on('$destroy',function() {
+                elem.off('mouseover');
+                $(window).off('resize');
             });
         }
-    }
+    };
 });

@@ -26,3 +26,19 @@ a {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 30px;
   position: absolute; }
+
+.item-overlay {
+  position: relative; }
+  .item-overlay .item-overlay-blocks {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute; }
+    .item-overlay .item-overlay-blocks > span {
+      background-color: rgba(121, 121, 121, 0.3);
+      display: inline-block;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+      border-left: 1px dashed rgba(255, 255, 255, 0.3); }
+      .item-overlay .item-overlay-blocks > span:hover {
+        background-color: rgba(0, 0, 0, 0.3); }
