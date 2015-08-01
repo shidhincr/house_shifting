@@ -1,6 +1,6 @@
 <div class="item-overlay">
     <ng-transclude></ng-transclude>
     <div class="item-overlay-blocks">
-        <span ng-repeat="m in matrix" ng-style="{width: m.w, height: m.h}">&nbsp;</span>
+        <span ng-repeat="m in matrix" ng-style="{width: m.w, height: m.h}" ng-click="edit($event)" ng-blur="update($event, $index+1)">{{ m.text || '&nbsp;'}}</span>
     </div>
 </div>

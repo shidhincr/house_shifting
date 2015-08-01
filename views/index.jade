@@ -14,10 +14,10 @@ block content
                 h4 #{key.toUpperCase()} VIEW
                   .row
                     .col-xs-8
-                      each img in item.images
-                        div.img-placeholder(data-items-overlay)
+                      each imgData,img in item
+                        div.img-placeholder(data-items-overlay="#{key},#{img}")
                           img.img-thumb.lazyload(data-src="/images/#{key}/#{img}")
                           div.img-title= img
                     .col-xs-4
                       ul.list-group
-                        li.list-group-item(ng-repeat="i in m.itemsData") {{i}}
+                        li.list-group-item(ng-repeat="i in m.itemsData.data") {{i}}

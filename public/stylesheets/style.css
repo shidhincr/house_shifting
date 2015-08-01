@@ -39,6 +39,10 @@ a {
       background-color: rgba(121, 121, 121, 0.3);
       display: inline-block;
       border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
-      border-left: 1px dashed rgba(255, 255, 255, 0.3); }
+      border-left: 1px dashed rgba(255, 255, 255, 0.3);
+      color: rgba(6, 255, 0, 0.75);
+      font-size: 0.9em;
+      overflow: hidden;
+      font-size: 1vw; }
       .item-overlay .item-overlay-blocks > span:hover {
         background-color: rgba(0, 0, 0, 0.3); }
